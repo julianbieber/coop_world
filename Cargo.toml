@@ -1,0 +1,12 @@
+[workspace]
+members = ["server", "client"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.dependencies]
+bevy = "0.11.1"
+bevy_rapier3d = { version = "0.22.0", features = ["parallel", "simd-stable"] }
+tonic = "0.9"
+prost = "0.11"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+tonic-build = "0.9"
