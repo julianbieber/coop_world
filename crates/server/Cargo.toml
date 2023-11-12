@@ -9,6 +9,8 @@ edition = "2021"
 tonic.workspace = true
 prost.workspace = true
 tokio.workspace = true 
+bevy.workspace = true
+bevy_rapier3d.workspace = true
 
 [build-dependencies]
 tonic-build.workspace = true
